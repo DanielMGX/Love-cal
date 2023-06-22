@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braking Love</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Partnership</h1>
+      <div class="form">
+        <label for="person1">Person one:</label>
+        <input type="text" id="person1" placeholder="Name">
+        <label for="person2">Person two:</label>
+        <input type="text" id="person2" placeholder="Name">
+        <button id="match-btn" onclick="calculateMatch()">Match</button>
+      </div>
+      <div class="result-box hidden" id="result-box">
+        <h2>Your Love Match</h2>
+        <div class="love-meter" id="love-meter"></div>
+        <div class="sentences" id="sentences"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
